@@ -1,0 +1,285 @@
+# ============================================================
+# MindArena Questions File
+# Format: CATEGORY|DIFFICULTY|Question text
+#         A) Option A
+#         B) Option B
+#         C) Option C
+#         D) Option D
+#         ANSWER: X
+# ============================================================
+
+# ── JAVA ─────────────────────────────────────────────────────
+
+Java|EASY|Which keyword is used to create an object in Java?
+A) create
+B) new
+C) object
+D) build
+ANSWER: B
+
+Java|EASY|Which of these is NOT a primitive data type in Java?
+A) int
+B) boolean
+C) String
+D) char
+ANSWER: C
+
+Java|EASY|What is the size of an int in Java?
+A) 8 bits
+B) 16 bits
+C) 32 bits
+D) 64 bits
+ANSWER: C
+
+Java|MEDIUM|Which Java collection maintains insertion order and allows duplicates?
+A) HashSet
+B) TreeSet
+C) ArrayList
+D) HashMap
+ANSWER: C
+
+Java|MEDIUM|What does the 'static' keyword mean when applied to a method?
+A) The method runs automatically on startup
+B) The method belongs to the class, not an instance
+C) The method cannot be overridden
+D) The method is thread-safe
+ANSWER: B
+
+Java|MEDIUM|What is the output of: System.out.println(10 / 3)?
+A) 3.33
+B) 3
+C) 4
+D) 3.0
+ANSWER: B
+
+Java|HARD|Which interface must be implemented to make a Java object sortable using Collections.sort()?
+A) Comparator
+B) Iterable
+C) Comparable
+D) Serializable
+ANSWER: C
+
+Java|HARD|What is the purpose of the 'volatile' keyword in Java?
+A) Prevents a variable from being modified
+B) Ensures visibility of changes to a variable across threads
+C) Makes a variable thread-local
+D) Marks a method as synchronized
+ANSWER: B
+
+Java|HARD|What design pattern does Java's InputStream use?
+A) Singleton
+B) Factory
+C) Decorator
+D) Observer
+ANSWER: C
+
+# ── Python ───────────────────────────────────────────────────
+
+Python|EASY|Which symbol is used for single-line comments in Python?
+A) //
+B) /*
+C) #
+D) --
+ANSWER: C
+
+Python|EASY|What data type does type([]) return in Python?
+A) tuple
+B) array
+C) list
+D) dict
+ANSWER: C
+
+Python|EASY|Which keyword defines a function in Python?
+A) function
+B) def
+C) fun
+D) define
+ANSWER: B
+
+Python|MEDIUM|What is the output of: print(type(1/2)) in Python 3?
+A) int
+B) float
+C) double
+D) decimal
+ANSWER: B
+
+Python|MEDIUM|Which Python data structure is immutable?
+A) list
+B) dictionary
+C) set
+D) tuple
+ANSWER: D
+
+Python|MEDIUM|What does the 'self' parameter in a Python class method refer to?
+A) The class itself
+B) The parent class
+C) The current instance
+D) A static reference
+ANSWER: C
+
+Python|HARD|What is a Python generator?
+A) A class that generates random numbers
+B) A function that returns an iterator using yield
+C) A built-in module for data generation
+D) A decorator for creating lists
+ANSWER: B
+
+Python|HARD|What does @staticmethod mean in Python?
+A) The method can only be called once
+B) The method has access to class variables via cls
+C) The method does not receive the instance or class as first argument
+D) The method is automatically called on import
+ANSWER: C
+
+# ── Data Structures ──────────────────────────────────────────
+
+Data Structures|EASY|Which data structure works on the LIFO principle?
+A) Queue
+B) Stack
+C) Array
+D) Tree
+ANSWER: B
+
+Data Structures|EASY|What is the time complexity of accessing an element in an array by index?
+A) O(n)
+B) O(log n)
+C) O(1)
+D) O(n²)
+ANSWER: C
+
+Data Structures|EASY|Which data structure uses FIFO (First In First Out) ordering?
+A) Stack
+B) Tree
+C) Queue
+D) Heap
+ANSWER: C
+
+Data Structures|MEDIUM|What is the worst-case time complexity of binary search?
+A) O(1)
+B) O(n)
+C) O(log n)
+D) O(n log n)
+ANSWER: C
+
+Data Structures|MEDIUM|Which tree traversal visits the root node LAST?
+A) Pre-order
+B) In-order
+C) Post-order
+D) Level-order
+ANSWER: C
+
+Data Structures|MEDIUM|In a min-heap, the root element is always?
+A) The largest element
+B) The median element
+C) The smallest element
+D) A random element
+ANSWER: C
+
+Data Structures|HARD|What is the average time complexity of inserting into a hash table?
+A) O(n)
+B) O(log n)
+C) O(1)
+D) O(n log n)
+ANSWER: C
+
+Data Structures|HARD|Which of these sorting algorithms has O(n log n) worst-case time complexity?
+A) Quick Sort
+B) Bubble Sort
+C) Insertion Sort
+D) Merge Sort
+ANSWER: D
+
+# ── Computer Networks ─────────────────────────────────────────
+
+Computer Networks|EASY|What does HTTP stand for?
+A) HyperText Transfer Protocol
+B) HighText Transfer Process
+C) HyperText Terminal Program
+D) Hyperlink Transfer Protocol
+ANSWER: A
+
+Computer Networks|EASY|Which layer of the OSI model handles IP addressing?
+A) Data Link
+B) Transport
+C) Network
+D) Session
+ANSWER: C
+
+Computer Networks|EASY|What is the default port for HTTPS?
+A) 80
+B) 21
+C) 8080
+D) 443
+ANSWER: D
+
+Computer Networks|MEDIUM|What does DNS stand for and what does it do?
+A) Data Network System — routes data packets
+B) Domain Name System — translates domain names to IP addresses
+C) Dynamic Number Service — assigns IP addresses
+D) Distributed Node Server — stores web content
+ANSWER: B
+
+Computer Networks|MEDIUM|Which protocol is used to send emails?
+A) FTP
+B) SMTP
+C) HTTP
+D) SNMP
+ANSWER: B
+
+Computer Networks|HARD|What is the difference between TCP and UDP?
+A) TCP is faster; UDP is more reliable
+B) TCP guarantees delivery and order; UDP does not
+C) UDP is connection-oriented; TCP is connectionless
+D) There is no difference
+ANSWER: B
+
+Computer Networks|HARD|What is a subnet mask used for?
+A) To encrypt network traffic
+B) To identify which part of an IP address is the network vs host
+C) To block unauthorized access
+D) To assign dynamic IP addresses
+ANSWER: B
+
+# ── General Knowledge ────────────────────────────────────────
+
+General Knowledge|EASY|What is the capital city of Japan?
+A) Beijing
+B) Seoul
+C) Bangkok
+D) Tokyo
+ANSWER: D
+
+General Knowledge|EASY|How many planets are in our solar system?
+A) 7
+B) 8
+C) 9
+D) 10
+ANSWER: B
+
+General Knowledge|EASY|Who wrote the play Romeo and Juliet?
+A) Charles Dickens
+B) Mark Twain
+C) William Shakespeare
+D) Jane Austen
+ANSWER: C
+
+General Knowledge|MEDIUM|What is the chemical symbol for Gold?
+A) Gd
+B) Go
+C) Gl
+D) Au
+ANSWER: D
+
+General Knowledge|MEDIUM|In which year did World War II end?
+A) 1943
+B) 1944
+C) 1945
+D) 1946
+ANSWER: C
+
+General Knowledge|HARD|What is the Fibonacci sequence?
+A) Each number is the product of the previous two
+B) Each number is the sum of the two preceding numbers
+C) Each number is double the previous number
+D) Each number is the square of its position
+ANSWER: B
